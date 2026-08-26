@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gabriel Batalha — Desenvolvedor Full-Stack</title>
+<meta name="description" content="Portfólio de Gabriel Batalha, desenvolvedor full-stack." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="topbar">
+  <nav class="pill-nav" aria-label="Navegação principal">
+    <a href="#home" data-route="home" class="nav-link active">Home</a>
+    <a href="#bio" data-route="bio" class="nav-link">Bio</a>
+    <a href="#stacks" data-route="stacks" class="nav-link">Stacks</a>
+    <a href="#projetos" data-route="projetos" class="nav-link">Projetos</a>
+  </nav>
+
+  <div class="topbar-actions">
+    <button id="langToggle" class="icon-btn" aria-label="Alterar idioma" title="PT / EN">
+      <span data-i18n-lang>PT</span>
+    </button>
+    <button id="themeToggle" class="icon-btn" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.3A8.3 8.3 0 1 1 9.7 4a6.6 6.6 0 0 0 10.3 10.3Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-footer">
+  <span data-i18n="footer.rights">© 2026 Gabriel Batalha. Feito com precisão e café.</span>
+</footer>
+
+<script src="projects.js"></script>
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
