@@ -7,7 +7,7 @@ const I18N = {
     "home.status": "Disponível para novos projetos",
     "home.title": "Bem-vindo!",
     "home.sub_pre": "Sou ",
-    "home.name": "Gabriel Batalha",
+    "home.name": "Gabriel Batalha", 
     "home.sub_post": ", um desenvolvedor full-stack.",
     "bio.eyebrow": "sobre-mim",
     "bio.who_title": "Quem sou?",
@@ -63,16 +63,16 @@ const I18N = {
 
 const STUDIES_TIMELINE = {
   pt: [
-    { year: "2019", icon: "💻", title: "Primeiro contato com programação", desc: "Lógica de programação e estrutura de dados básica." },
+    { year: "2019", icon: "💻", title: "Primeiro contato com programação", desc: "Lógica de programação, estrutura de dados básica e robótica." },
     { year: "2021", icon: "🎓", title: "Primeira formatura na área da tecnologia", desc: "Técnico em desenvolvimento de sistemas." },
     { year: "2023", icon: "🇬🇧", title: "Formatura no curso de inglês", desc: "Comunicação avançada em fluência." },
-    { year: "2024", icon: "</>", title: "Início da faculdade", desc: "Bacharelado em Ciência da Computação." }
+    { year: "2025", icon: "</>", title: "Início da faculdade", desc: "Análise e Desenvolvimento de Sistemas - IFSP." }
   ],
   en: [
-    { year: "2019", icon: "💻", title: "First contact with programming", desc: "Basic programming logic and data structures." },
+    { year: "2019", icon: "💻", title: "First contact with programming", desc: "Basic programming logic, data structures and robotics." },
     { year: "2021", icon: "🎓", title: "First graduation in tech", desc: "Technical degree in systems development." },
     { year: "2023", icon: "🇬🇧", title: "Graduated English course", desc: "Advanced fluency communication." },
-    { year: "2024", icon: "</>", title: "Started university", desc: "B.Sc. in Computer Science." }
+    { year: "2024", icon: "</>", title: "Started university", desc: "Analysis and Development of Systems - IFSP." }
   ]
 };
 
