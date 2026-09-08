@@ -17,6 +17,7 @@ const I18N = {
     "bio.goals_title": "Objetivos e Sonhos",
     "bio.goals_text": "Quero atuar em projetos que unam bom design e engenharia sólida, crescer na área de tecnologia com foco em Engenharia de Software e de Dados, e, no futuro, liderar times técnicos mantendo a mesma curiosidade que tenho hoje.",
     "bio.experience_title": "Experiência",
+    "bio.experience_text": "Desenvolvimento de projetos acadêmicos e pessoais focados em aplicações web modernas, automações e estudos aprofundados em Engenharia de Software e Banco de Dados.",
     "bio.studies_title": "Estudos",
     "stacks.eyebrow": "ferramentas",
     "stacks.title": "Stacks",
@@ -48,6 +49,7 @@ const I18N = {
     "bio.goals_title": "Goals & Dreams",
     "bio.goals_text": "I want to work on projects that combine good design and solid engineering, grow in tech with a focus on Software and Data Engineering, and eventually lead technical teams with the same curiosity I have today.",
     "bio.experience_title": "Experience",
+    "bio.experience_text": "Development of academic and personal projects focused on modern web applications, automations, and in-depth studies in Software Engineering and Databases.",
     "bio.studies_title": "Studies",
     "stacks.eyebrow": "toolbox",
     "stacks.title": "Stacks",
@@ -149,17 +151,7 @@ const STACKS = {
       </section>`;
   }
 
-  function renderBio() {
-    const experience = (EXPERIENCE_TIMELINE[state.lang] || []).map(item => `
-      <div class="timeline-item">
-        <div class="timeline-icon">${item.icon}</div>
-        <div>
-          <div class="timeline-year">${item.year}</div>
-          <div class="timeline-title">${item.title}</div>
-          <div class="timeline-desc">${item.desc}</div>
-        </div>
-      </div>`).join("");
-
+ function renderBio() {
     const timeline = (STUDIES_TIMELINE[state.lang] || []).map(item => `
       <div class="timeline-item">
         <div class="timeline-icon">${item.icon}</div>
@@ -187,7 +179,7 @@ const STACKS = {
         </section>
         <section>
           <h2 class="section-title">${t("bio.experience_title")}</h2>
-          <div class="timeline">${experience}</div>
+          <p class="body-text">${t("bio.experience_text")}</p>
         </section>
         <section>
           <h2 class="section-title">${t("bio.studies_title")}</h2>
@@ -195,7 +187,6 @@ const STACKS = {
         </section>
       </div>`;
   }
-
   function renderStackGroup(label, items) {
     const chips = (items || []).map(s => `
       <div class="stack-chip">
