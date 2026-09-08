@@ -41,8 +41,17 @@
       </section>`;
   }
 
+  const EXPERIENCE_TIMELINE = {
+  pt: [
+    { year: "Atual", icon: "🚀", title: "Projetos Acadêmicos & Pessoais", desc: "Desenvolvimento de aplicações web modernas, automações e estudos avançados em Engenharia de Software e Banco de Dados." }
+  ],
+  en: [
+    { year: "Present", icon: "🚀", title: "Academic & Personal Projects", desc: "Building modern web applications, automations, and advanced studies in Software Engineering and Data Science." }
+  ]
+};
+
   function renderBio() {
-    const experience = EXPERIENCE_TIMELINE[state.lang].map(item => `
+    const experience = (EXPERIENCE_TIMELINE[state.lang] || []).map(item => `
       <div class="timeline-item">
         <div class="timeline-icon">${item.icon}</div>
         <div>
@@ -52,7 +61,7 @@
         </div>
       </div>`).join("");
 
-    const timeline = STUDIES_TIMELINE[state.lang].map(item => `
+    const timeline = (STUDIES_TIMELINE[state.lang] || []).map(item => `
       <div class="timeline-item">
         <div class="timeline-icon">${item.icon}</div>
         <div>
