@@ -15,17 +15,12 @@
  */
 const PROJECTS = [
   {
-    name: "Nome do Projeto",
+    name: "Reminder (Em desenvolvimento)",
     year: "2026",
-    summary: "Resumo curto explicando o problema que o projeto resolve e como ele foi construído.",
-    tags: ["React", "Node.js", "PostgreSQL"],
+    summary: "Software web criado e pensado para gerenciar tarefas e lembretes, com foco em produtividade e organização pessoal.",
+    tags: ["React", "Next.js", "MySQL"],
     links: { demo: "", repo: "" }
   },
-  {
-    name: "Outro Projeto",
-    year: "2025",
-    summary: "Substitua por um resumo do seu segundo projeto pessoal.",
-    tags: ["TypeScript", "Tailwind"],
-    links: { demo: "", repo: "" }
-  }
+
+
 ];
