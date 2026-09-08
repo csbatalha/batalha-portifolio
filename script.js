@@ -42,6 +42,16 @@
   }
 
   function renderBio() {
+    const experience = EXPERIENCE_TIMELINE[state.lang].map(item => `
+      <div class="timeline-item">
+        <div class="timeline-icon">${item.icon}</div>
+        <div>
+          <div class="timeline-year">${item.year}</div>
+          <div class="timeline-title">${item.title}</div>
+          <div class="timeline-desc">${item.desc}</div>
+        </div>
+      </div>`).join("");
+
     const timeline = STUDIES_TIMELINE[state.lang].map(item => `
       <div class="timeline-item">
         <div class="timeline-icon">${item.icon}</div>
@@ -66,6 +76,10 @@
         <section>
           <h2 class="section-title">${t("bio.goals_title")}</h2>
           <p class="body-text">${t("bio.goals_text")}</p>
+        </section>
+        <section>
+          <h2 class="section-title">${t("bio.experience_title")}</h2>
+          <div class="timeline">${experience}</div>
         </section>
         <section>
           <h2 class="section-title">${t("bio.studies_title")}</h2>

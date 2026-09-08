@@ -8,7 +8,7 @@ const I18N = {
     "home.title": "Bem-vindo!",
     "home.sub_pre": "Sou ",
     "home.name": "Gabriel Batalha", 
-    "home.sub_post": ", programação e dados.",
+    "home.sub_post": ", focado em engenharia de software e dados.",
     "bio.eyebrow": "sobre-mim",
     "bio.who_title": "Quem sou?",
     "bio.who_text": "Estudante de tecnologia apaixonado por transformar ideias em produtos digitais funcionais, acessíveis e bem construídos. Gosto de entender a raiz do problema antes de escrever a primeira linha de código, com foco em construir uma sólida carreira nas áreas de Engenharia de Software e Engenharia de Dados.",
@@ -16,6 +16,7 @@ const I18N = {
     "bio.char_text": "Curioso, organizado e direto ao ponto. Prefiro soluções simples que funcionam a soluções complexas que impressionam. Trabalho bem em equipe e gosto de dar e receber feedback.",
     "bio.goals_title": "Objetivos e Sonhos",
     "bio.goals_text": "Quero atuar em projetos que unam bom design e engenharia sólida, crescer na área de tecnologia com foco em Engenharia de Software e de Dados, e, no futuro, liderar times técnicos mantendo a mesma curiosidade que tenho hoje.",
+    "bio.experience_title": "Experiência",
     "bio.studies_title": "Estudos",
     "stacks.eyebrow": "ferramentas",
     "stacks.title": "Stacks",
@@ -38,7 +39,7 @@ const I18N = {
     "home.title": "Welcome!",
     "home.sub_pre": "I'm ",
     "home.name": "Gabriel Batalha",
-    "home.sub_post": ", programming and data.",
+    "home.sub_post": ", focused on software and data engineering.",
     "bio.eyebrow": "about-me",
     "bio.who_title": "Who am I?",
     "bio.who_text": "Technology student passionate about turning ideas into functional, accessible, and well-crafted digital products. I enjoy understanding the root of the problem before writing the first line of code, focusing on building a solid career in Software Engineering and Data Engineering.",
@@ -46,6 +47,7 @@ const I18N = {
     "bio.char_text": "Curious, organized and to the point. I'd rather ship a simple solution that works than a complex one that just impresses. I work well in teams and value honest feedback.",
     "bio.goals_title": "Goals & Dreams",
     "bio.goals_text": "I want to work on projects that combine good design and solid engineering, grow in tech with a focus on Software and Data Engineering, and eventually lead technical teams with the same curiosity I have today.",
+    "bio.experience_title": "Experience",
     "bio.studies_title": "Studies",
     "stacks.eyebrow": "toolbox",
     "stacks.title": "Stacks",
@@ -61,6 +63,15 @@ const I18N = {
   }
 };
 
+const EXPERIENCE_TIMELINE = {
+  pt: [
+    { year: "Atual", icon: "🚀", title: "Projetos Acadêmicos & Pessoais", desc: "Desenvolvimento de aplicações web modernas, automações e estudos avançados em Engenharia de Software e Banco de Dados." }
+  ],
+  en: [
+    { year: "Present", icon: "🚀", title: "Academic & Personal Projects", desc: "Building modern web applications, automations, and advanced studies in Software Engineering and Databases." }
+  ]
+};
+
 const STUDIES_TIMELINE = {
   pt: [
     { year: "2019", icon: "💻", title: "Primeiro contato com programação", desc: "Lógica de programação, estrutura de dados básica e robótica." },
@@ -73,26 +84,5 @@ const STUDIES_TIMELINE = {
     { year: "2021", icon: "🎓", title: "First graduation in tech", desc: "Technical degree in systems development." },
     { year: "2023", icon: "🇬🇧", title: "Graduated English course", desc: "Advanced fluency communication." },
     { year: "2024", icon: "</>", title: "Started university", desc: "Analysis and Development of Systems - IFSP." }
-  ]
-};
-
-const STACKS = {
-  frontend: [
-    { icon: "⚛️", name: "React", level: "avançado" },
-    { icon: "▲", name: "Next.js", level: "avançado" },
-    { icon: "🎨", name: "TailwindCSS", level: "avançado" },
-    { icon: "🟦", name: "TypeScript", level: "intermediário" }
-  ],
-  backend: [
-    { icon: "🟢", name: "Node.js", level: "avançado" },
-    { icon: "🐍", name: "Python", level: "intermediário" },
-    { icon: "🐘", name: "PostgreSQL", level: "avançado" },
-    { icon: "🍃", name: "MongoDB", level: "intermediário" }
-  ],
-  tools: [
-    { icon: "🐳", name: "Docker", level: "intermediário" },
-    { icon: "☁️", name: "AWS", level: "básico" },
-    { icon: "🔧", name: "Git", level: "avançado" },
-    { icon: "▶️", name: "CI/CD", level: "intermediário" }
   ]
 };
