@@ -97,16 +97,16 @@ const STACKS = {
     { icon: "🟦", name: "TypeScript", level: "intermediário" }
   ],
   backend: [
-    { icon: "🟢", name: "Node.js", level: "avançado" },
+    { icon: "☕", name: "Java", level: "intermediário" },
+    { icon: "🪟", name: "C# / C++", level: "intermediário" },
     { icon: "🐍", name: "Python", level: "intermediário" },
-    { icon: "🐘", name: "PostgreSQL", level: "avançado" },
-    { icon: "🍃", name: "MongoDB", level: "intermediário" }
+    { icon: "🗄️", name: "SQL", level: "avançado" }
   ],
   tools: [
+    { icon: "📊", name: "Databricks", level: "intermediário" },
+    { icon: "📈", name: "Power BI", level: "intermediário" },
     { icon: "🐳", name: "Docker", level: "intermediário" },
-    { icon: "☁️", name: "AWS", level: "básico" },
-    { icon: "🔧", name: "Git", level: "avançado" },
-    { icon: "▶️", name: "CI/CD", level: "intermediário" }
+    { icon: "🔧", name: "Git", level: "avançado" }
   ]
 };
 
