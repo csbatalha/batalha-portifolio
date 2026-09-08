@@ -77,15 +77,15 @@ const EXPERIENCE_TIMELINE = {
 const STUDIES_TIMELINE = {
   pt: [
     { year: "2019", icon: "💻", title: "Primeiro contato com programação", desc: "Lógica de programação, estrutura de dados básica e robótica." },
-    { year: "2021", icon: "🎓", title: "Primeira formatura na área da tecnologia", desc: "Técnico em desenvolvimento de sistemas." },
-    { year: "2023", icon: "🇬🇧", title: "Formatura no curso de inglês", desc: "Comunicação avançada em fluência." },
-    { year: "2025", icon: "</>", title: "Início da faculdade", desc: "Análise e Desenvolvimento de Sistemas - IFSP." }
+    { year: "2023", icon: "🎓", title: "Primeira formatura na área da tecnologia pela Etec Adolpho Berezin", desc: "Técnico em desenvolvimento de sistemas." },
+    { year: "2025", icon: "</>", title: "Início da faculdade", desc: "Análise e Desenvolvimento de Sistemas - IFSP Cubatão." },
+    { year: "2025", icon: "📊", title: "PwC Brasil", desc: "Aprendiz em Análise de Dados." }
   ],
   en: [
     { year: "2019", icon: "💻", title: "First contact with programming", desc: "Basic programming logic, data structures and robotics." },
-    { year: "2021", icon: "🎓", title: "First graduation in tech", desc: "Technical degree in systems development." },
-    { year: "2023", icon: "🇬🇧", title: "Graduated English course", desc: "Advanced fluency communication." },
-    { year: "2024", icon: "</>", title: "Started university", desc: "Analysis and Development of Systems - IFSP." }
+    { year: "2023", icon: "🎓", title: "First graduation in tech", desc: "Technical degree in systems development." },
+    { year: "2025", icon: "</>", title: "Started university", desc: "Analysis and Development of Systems - IFSP Cubatão." },
+    { year: "2025", icon: "📊", title: "PwC Brasil", desc: "Apprentice in Data Analysis." }
   ]
 };
 
@@ -108,7 +108,7 @@ const STACKS = {
     { icon: "🐳", name: "Docker", level: "intermediário" },
     { icon: "🔧", name: "Git", level: "avançado" }
   ]
-};
+};  
 
 (function () {
   "use strict";
